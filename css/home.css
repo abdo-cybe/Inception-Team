@@ -1,0 +1,77 @@
+body{
+    height: 2000px;
+}
+
+/* navbar section */
+
+.navbar{
+    background: none !important;
+    display: none;
+    transition-delay: 1s ease-in-out !important;
+}
+
+.scrolled{
+    background: black !important;
+    display: block;
+    position: fixed;
+}
+/*banner section*/
+
+.banner{
+    background: url(../images/space-background.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.banner1{
+    position: relative;
+    top: 240px;
+    text-align: center !important;
+    color: #ffffff;
+    font-size: 8rem !important;    
+}
+
+.banner2{
+    position: relative;
+    top: 470px;
+    text-align: center !important;    
+}
+
+.banner-scroll-link{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 1.1rem !important;
+    letter-spacing: 0.7px;
+    transition: 0.5s ease-in-out;
+}
+
+.banner-scroll-link:hover{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.3rem !important;
+}
+
+.card {
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
+    margin-top: 100px;
+    width: 78%;
+}
+
+.card-title{
+    margin-bottom: 0 !important;
+}
+
+.card-text{
+    font-size: 15px;
+}
+
+.card-body .btn{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    border: none;
+}

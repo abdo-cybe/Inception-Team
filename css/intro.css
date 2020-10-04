@@ -1,0 +1,136 @@
+body{
+    height: 2000px;
+    background: url(../images/intro-background.jpg) fixed;
+    background-size: cover;
+}
+
+
+.navbar{
+    transition: 0.5s ease-in-out;
+    background: none !important;
+}
+
+.scrolled{
+    background: black !important;
+    position: sticky !important;
+}
+
+.intro-summary{
+    margin-top: 190px;
+    margin-bottom: 300px;
+}
+
+.summary{
+    background-color: #cfd7e0;
+    padding: 10px;
+    border-radius: 15px;
+    width: 500px;
+    height: 250px;
+    box-shadow: #242424 10px 10px 20px;
+}
+
+.summary h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.intro-scroll-btn{
+    border: none;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    padding: 7px !important;
+    background-color: #393f41;
+    text-decoration: none;
+    color: #ffffff !important;
+    transition: 0.5s ease-in-out;
+}
+
+.intro-scroll-btn:hover{
+    font-size: 1.3rem;
+}
+
+.intro-scroll-btn a{
+    color: white !important;
+}
+
+.intro-scroll-btn a:hover{
+    text-decoration: none;
+}
+
+.video{
+    margin-top: 15px;
+}
+
+.go-to-question-btn{
+    color: white;
+    position: absolute;
+    top: 1200px;
+    right: -30px;
+    font-size: 1.3rem;
+    transform: rotate(90deg);
+    transition: 0.5s ease-in-out;
+}
+
+.go-to-question-btn:hover{
+    font-size: 1.5rem;
+}
+
+.questions{
+    background-color: #cfd7e0;
+    padding: 10px;
+    border-radius: 15px;
+    width: 60%;
+    height: 200px;
+    box-shadow: #242424 10px 10px 20px; 
+    margin-top: 100px;   
+}
+
+.the-question{
+    font-size: 2rem !important;
+}
+
+label{
+    font-size: 1.1rem !important;
+}
+
+.submit-btn{
+    position: absolute;
+    left: 40px;
+    top: 100px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 30px;
+    padding: 10px;
+    width: 150px;
+}
+
+.right-ans{
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.wrong-ans{
+    color: red;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.next-page-btn{
+    display: none;
+    text-decoration: none;
+    color: white !important;
+    font-size: 1.2rem;
+    margin-top: 15px;
+    position: relative;
+    top: 10px;
+    left: 20px;
+    transition: 0.5s ease-in-out;
+}
+
+.next-page-btn:hover{
+    text-decoration: none !important;
+    left: 70px;
+}
