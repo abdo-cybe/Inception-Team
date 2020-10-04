@@ -17,12 +17,7 @@ $(function () {
     }
 })
 
-//ana t3bt 4:32AM
-// اشتغلت 4:35
-//////////////////////////mission accomplished 4:42Am w enta naym ya 3l2
-////4:46 good night
-
-    ////////////////// adjust navbar style on scroll
+////////////////// adjust navbar style on scroll
 
     $(window).scroll(function() {
       
